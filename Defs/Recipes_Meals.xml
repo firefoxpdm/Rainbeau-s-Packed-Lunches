@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>MakePackedLunch</defName>
+		<label>make packed lunch</label>
+		<description>Makes a packed lunch from a meal.</description>
+		<jobString>Making packed lunch.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>1</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FoodMeals</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<PackedLunch>1</PackedLunch>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>FoodMeals</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>MealSurvivalPack</li>
+				<li>PackedLunch</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodMeals</li>
+			</categories>
+			<disallowedThingDefs>
+				<li>MealSurvivalPack</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<skillRequirements>
+			<Cooking>5</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,17 @@
+---------------------------------------------------------------------------------
+  Changelog for "Rainbeau's Packed Lunches"
+---------------------------------------------------------------------------------
+
+- 10/14/2018
+	- Updated to RimWorld 1.0 release!
+	- Updated the mod's lunch graphic to utilize StackCounts.
+
+- 10/12/2018
+	- Updated the work required to make packed lunches, so they now require half
+	  as much work as making a simple meal, as opposed to five times as much.
+	  
+- 10/04/2018
+	- Updated RimRue's mod to RimWorld b19 release.
+	
+- 05/15/2017
+	- Initial RimWorld a17 release by RimRue.
